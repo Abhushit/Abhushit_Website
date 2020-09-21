@@ -1,0 +1,31 @@
+.footerContact > h3{
+    color: #fff;
+    font-size: 25px;
+}
+.footerContact > p{
+    color: #fff;
+    background-color: #1e242c;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.footerContact > p >a {
+    color: inherit;
+    transition: 0.4s;
+}
+.footerContact > p > a:hover{
+    color: var(--blue-color);
+}
+@media(max-width: 768px){
+    .footer__contact{
+        display: block;
+        margin: 10px;
+    }
+    .footerContact > h3 {
+        font-size: 18px;
+    }
+    .footerContact > p {
+        padding: 10px 15px;
+        margin: 10px 0;
+    }
+    
+}

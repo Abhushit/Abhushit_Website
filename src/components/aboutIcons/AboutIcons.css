@@ -1,0 +1,49 @@
+.aboutIcons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 100%;
+    transition: 0.4s ease in-out;
+}
+.aboutIcons_icons {
+    padding: 30px;
+    margin: 15px;
+    border: 1px solid #f1f1f1;
+    align-self: center;
+    transition: 0.4s ease in-out;
+}
+.aboutIcons_icons > .MuiSvgIcon-root{
+    font-size: 55px;
+    color: var(--blue-color);
+    transition: 0.4s;
+}
+.aboutIcons:hover .aboutIcons_icons{
+    border: 1px solid var(--blue-color);
+}
+.aboutIcons:hover .MuiSvgIcon-root{
+    transform: scale(1.2);
+
+}
+.aboutIcons > h3{
+    font-size: 28px;
+}
+.aboutIcons > p{
+    margin: 0 10px;
+}
+@media(max-width:768px){
+    .aboutIcons_icons > .MuiSvgIcon-root {
+        font-size: 40px;
+    }
+    .aboutIcons_icons {
+        padding: 20px;
+        margin: 5px;
+    }
+    .aboutIcons > h3 {
+        font-size: 20px;
+    }
+    .aboutIcons > p {
+        margin: 0 15px;
+        margin-bottom: 20px;
+    }
+}

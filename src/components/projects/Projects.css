@@ -1,0 +1,63 @@
+.projects{
+    padding: 4rem 0;
+    background: #f3f3f3;
+}
+.projects__buttons{
+    margin-top: 1rem;
+    text-align: center;
+}
+.btn-projects{
+    background-color: #ebebeb;
+    padding: 8px 20px;
+    color: inherit;
+    margin: 10px 20px;
+    outline: none;
+    border: transparent;
+    font-size: 18px;
+}
+.active{
+    background-color: var(--red-color);
+    color: #fff;
+}
+.projects__react, .project__wordpress{
+    margin-top: 3rem;
+}
+.projects_reactGrid3{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.react-tabs__tab-list {
+    border-bottom: none !important;
+    list-style: none;
+}
+.react-tabs__tab-list > li{
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+.react-tabs__tab--selected{
+    background: var(--red-color) !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+@media(max-width:768px){
+    .projects {
+        padding: 1rem 0;
+    }
+    .projects__buttons {
+        margin-top: 0;
+    }
+    .react-tabs__tab-list > li {
+        margin: 5px;
+    }
+    .btn-projects {
+        padding: 4px 15px;
+        font-size: 14px;
+    }
+    .projects__react, .project__wordpress {
+        margin-top: 1rem;
+    }
+    .projects_reactGrid3 {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

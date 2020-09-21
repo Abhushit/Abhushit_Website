@@ -1,0 +1,27 @@
+.headerCompo{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.headerCompo > h2{
+    color:  #333;
+    font-size: 40px;
+}
+.headerCompo > div{
+    background-color: #333;
+    height: 4px;
+    width: 10%;
+    display: inline-block;
+}
+@media(max-width:768px){
+    .headerCompo > h2 {
+        font-size: 24px;
+    }
+    .headerCompo > div {
+        width: 18%;
+        top: -10px;
+        position: relative;
+    }
+    .headerCompo {
+        padding-bottom: 10px;
+    }
+}

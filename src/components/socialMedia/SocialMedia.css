@@ -1,0 +1,33 @@
+.social__media{
+    background-color: #252934;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.social__media a{
+    color: inherit;
+    display: flex;
+}
+.social__media > .MuiSvgIcon-root{
+    display: flex;
+    align-self: center;
+}
+.social__media:hover{
+    background-color: var(--blue-color);
+    padding: 7px;
+    box-shadow: 0 0 0 3px rgba(4, 94, 201, 0.1);
+}
+@media(max-width:768px){
+    .social__media {
+        padding: 10px;
+        margin: 10px;
+        height: 20px;
+        width: 20px;
+    }
+}

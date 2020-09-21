@@ -1,0 +1,15 @@
+.blog{
+    padding: 4rem 0;
+    position: relative;
+}
+.blog__div{
+    display: flex;
+}
+@media(max-width: 768px){
+    .blog__div{
+        display: block;
+    }
+    .blog {
+        padding: 1rem 0;
+    }
+}

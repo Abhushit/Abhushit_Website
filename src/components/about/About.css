@@ -1,0 +1,124 @@
+.about{
+    margin-top:4rem;
+    margin-bottom: 6rem;
+}
+.about__details{
+    display: flex;
+}
+.about__meGrid2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+.about__me{
+    margin-top: 5rem;
+}
+.about__img > img{
+    width: 100%;
+    border: 5px solid var(--red-color);
+    margin: 8%;
+    padding: 8%;
+    position: relative;
+    left: 10%;
+    top: 4px;
+    background-color: #fff;
+}
+.about__img{
+    border: 5px solid var(--blue-color);
+}
+.about__desc > p > span{
+    color: var(--blue-color);
+    text-decoration: underline;
+}
+.about__meSkills h3{
+    font-size: 28px;
+}
+.about__meSkills{
+    margin-left: 30%;
+    margin-top: 4%;
+}
+.about__skills{
+    margin-top: 3rem;
+}
+.about__skills{
+    
+}
+.about__skills > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+.about__skills > ul > li{
+    list-style: none;
+    padding: 0;
+    flex: 0 1 5em;
+    margin: 1rem;
+    height: 5.4rem;
+}
+.about__skills > ul > li > img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: 0.4s;
+}
+.about__skills > ul > li > img:hover{
+    transform: scale(1.1)
+}
+
+@media(max-width:768px){
+    .about__details{
+        display: block;
+    }
+    .animate__inside > h1 {
+        font-size: 25px;
+    }
+    .btn__animate {
+        padding: 6px 10px;
+        font-size: 14px;
+        margin: 7px 0;
+    }
+    .btn__animate > .MuiSvgIcon-root {
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .animate__particles {
+        height: 310px;
+    }
+    .about {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .about__me{
+        margin-top: 1rem;
+    }
+    .about__meGrid2 {
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+    }
+    .about__img > img {
+        border: none;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 4px;
+    }
+    .about__meSkills {
+        margin-left: 0;
+        margin-top: 4%;
+    }
+    .about__skills {
+        margin-top: 1rem;
+    }
+    .about__meSkills h3 {
+        font-size: 20px;
+    }
+    .about__skills > ul > li {
+        flex: 0 1 4em;
+        margin: 10px;
+        height: 3.5rem;
+    }
+}
