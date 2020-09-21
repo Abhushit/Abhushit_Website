@@ -4,7 +4,7 @@ import "./BlogItem.css";
 function BlogItem({ title, image, desc, link }) {
   return (
     <div className="blogItem">
-      <a href={link} target="_blank">
+      <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="blogItem__image">
           <img src={image} alt="blog" />
         </div>
