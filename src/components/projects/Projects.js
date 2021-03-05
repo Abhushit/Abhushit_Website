@@ -11,6 +11,8 @@ import nourishmecafe from "./../../images/nourishmecafe.jpg";
 import ncpokhrel from "./../../images/ncpokhrel.jpg";
 import airambulance from "./../../images/airambulance.jpg";
 import webtechy from "./../../images/webtechy.jpg";
+import buenos from "./../../images/buenos.jpg";
+
 import covid from "./../../images/covid.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -36,6 +38,13 @@ function Projects({}) {
                       image={amazon}
                       name="Amazon Clone"
                       link="https://amaz-fake.web.app/"
+                    />
+                  </Zoom>
+                  <Zoom>
+                    <ProjectDisplay
+                      image={buenos}
+                      name="BAMD"
+                      link="https://buenosairesmarketingdigital.com/"
                     />
                   </Zoom>
                   <Zoom delay="20">
@@ -112,6 +121,13 @@ function Projects({}) {
                       image={amazon}
                       name="Amazon Clone"
                       link="https://amaz-fake.web.app/"
+                    />
+                  </Zoom>
+                  <Zoom>
+                    <ProjectDisplay
+                      image={buenos}
+                      name="BAMD"
+                      link="https://buenosairesmarketingdigital.com/"
                     />
                   </Zoom>
                   <Zoom delay="20">
