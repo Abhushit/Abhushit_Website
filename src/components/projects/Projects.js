@@ -12,6 +12,8 @@ import ncpokhrel from "./../../images/ncpokhrel.jpg";
 import airambulance from "./../../images/airambulance.jpg";
 import webtechy from "./../../images/webtechy.jpg";
 import buenos from "./../../images/buenos.jpg";
+import just from "./../../images/just.jpg";
+
 
 import covid from "./../../images/covid.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
@@ -42,11 +44,20 @@ function Projects({}) {
                   </Zoom>
                   <Zoom>
                     <ProjectDisplay
+                      image={just}
+                      name="JUST"
+                      link="https://just-latam.com/"
+                    />
+                  </Zoom>
+
+                  <Zoom>
+                    <ProjectDisplay
                       image={buenos}
                       name="BAMD"
                       link="https://buenosairesmarketingdigital.com/"
                     />
                   </Zoom>
+
                   <Zoom delay="20">
                     <ProjectDisplay
                       image={whatsupp}
@@ -123,6 +134,7 @@ function Projects({}) {
                       link="https://amaz-fake.web.app/"
                     />
                   </Zoom>
+                  
                   <Zoom>
                     <ProjectDisplay
                       image={buenos}
@@ -162,6 +174,13 @@ function Projects({}) {
                       image={imgstock}
                       name="Img Stock"
                       link="http://imgstock.net/"
+                    />
+                  </Zoom>
+                  <Zoom>
+                    <ProjectDisplay
+                      image={just}
+                      name="JUST"
+                      link="https://just-latam.com/"
                     />
                   </Zoom>
                   <Zoom delay="20">
