@@ -13,6 +13,7 @@ import airambulance from "./../../images/airambulance.jpg";
 import webtechy from "./../../images/webtechy.jpg";
 import buenos from "./../../images/buenos.jpg";
 import just from "./../../images/just.jpg";
+import final_hour from "./../../images/final_hour.jpg";
 
 
 import covid from "./../../images/covid.jpg";
@@ -35,6 +36,13 @@ function Projects({}) {
             <TabPanel>
               <div className="projects__react">
                 <div className="projects_reactGrid3">
+                  <Zoom>
+                    <ProjectDisplay
+                      image={final_hour}
+                      name="Final Hour"
+                      link="https://finalhour.retailcare.com.au/"
+                    />
+                  </Zoom>
                   <Zoom>
                     <ProjectDisplay
                       image={amazon}
@@ -72,13 +80,7 @@ function Projects({}) {
                       link="https://covid-dash1.web.app"
                     />
                   </Zoom>
-                  <Zoom delay="40">
-                    <ProjectDisplay
-                      image={tinder}
-                      name="Tinder Clone"
-                      link="http://tinder-clone-e0b7a.web.app/"
-                    />
-                  </Zoom>
+                 
                   <Zoom delay="60">
                     <ProjectDisplay
                       image={imgstock}
@@ -129,6 +131,14 @@ function Projects({}) {
                 <div className="projects_reactGrid3">
                   <Zoom>
                     <ProjectDisplay
+                      image={final_hour}
+                      name="Final Hour"
+                      link="https://finalhour.retailcare.com.au/"
+                    />
+                  </Zoom>
+                  
+                  <Zoom>
+                    <ProjectDisplay
                       image={amazon}
                       name="Amazon Clone"
                       link="https://amaz-fake.web.app/"
@@ -156,13 +166,7 @@ function Projects({}) {
                       link="https://covid-dash1.web.app"
                     />
                   </Zoom>
-                  <Zoom delay="40">
-                    <ProjectDisplay
-                      image={tinder}
-                      name="Tinder Clone"
-                      link="http://tinder-clone-e0b7a.web.app/"
-                    />
-                  </Zoom>
+         
                 </div>
               </div>
             </TabPanel>

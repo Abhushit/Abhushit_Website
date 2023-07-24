@@ -18,7 +18,7 @@ function App() {
             <Navbar />
             <About />
             <Projects />
-            <Blog />
+            {/* <Blog /> */}
             <Footer />
           </Route>
         </Switch>

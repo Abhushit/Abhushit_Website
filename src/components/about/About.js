@@ -12,6 +12,7 @@ import css from "./../../images/css.png";
 import javascript from "./../../images/javascript.png";
 import react from "./../../images/react.png";
 import nextjs from "./../../images/nextjs.png";
+import typescript from "./../../images/typescript.png";
 
 import wordpress from "./../../images/wordpress.png";
 import photoshop from "./../../images/photoshop.png";
@@ -78,7 +79,7 @@ function About() {
                     I am a web developer passionate about web development.{" "}
                     <br />
                     Completed Computer Science Engineering and working as a
-                    developer for two years.
+                    developer for four years.
                     <br />{" "}
                     <span>Love to make something creative and special</span>
                   </p>
@@ -87,10 +88,13 @@ function About() {
                   <h3>Skills</h3>
                   <ul>
                     <li>
-                      <img src={nextjs} alt="next_js_logo" title="Next js" />
+                      <img src={nextjs} alt="nextjs_logo" title="Next js" />
                     </li>
                     <li>
                       <img src={react} alt="react_logo" title="React Js" />
+                    </li>
+                    <li>
+                      <img src={typescript} alt="typescript_logo" title="Typescript" />
                     </li>
                     <li>
                       <img src={html} alt="html_logo" title="Html" />
