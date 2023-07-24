@@ -3,7 +3,6 @@ import HeaderCompo from "../headerCompo/HeaderCompo";
 import ProjectDisplay from "../projectDisplay/ProjectDisplay";
 import "./Projects.css";
 import amazon from "./../../images/amazon.jpg";
-import tinder from "./../../images/tinder-min.jpg";
 import whatsupp from "./../../images/whatsupp.jpg";
 import imgstock from "./../../images/imgstock.jpg";
 import birattimes from "./../../images/birattimes.jpg";
@@ -13,6 +12,8 @@ import airambulance from "./../../images/airambulance.jpg";
 import webtechy from "./../../images/webtechy.jpg";
 import buenos from "./../../images/buenos.jpg";
 import just from "./../../images/just.jpg";
+import skinvoyance from "./../../images/skinvoyance.jpg";
+import exchange_dark from "./../../images/exchange_dark.jpg";
 import final_hour from "./../../images/final_hour.jpg";
 
 
@@ -45,11 +46,20 @@ function Projects({}) {
                   </Zoom>
                   <Zoom>
                     <ProjectDisplay
-                      image={amazon}
-                      name="Amazon Clone"
-                      link="https://amaz-fake.web.app/"
+                      image={exchange_dark}
+                      name="Exchange Dashboard"
+                      link="https://exchange-dashboard-nine.vercel.app/"
                     />
                   </Zoom>
+                  <Zoom>
+                    <ProjectDisplay
+                      image={skinvoyance}
+                      name="Skinvoyance"
+                      link="https://skinvoyance.vercel.app/"
+                    />
+                  </Zoom>
+                 
+                  
                   <Zoom>
                     <ProjectDisplay
                       image={just}
@@ -57,7 +67,13 @@ function Projects({}) {
                       link="https://just-latam.com/"
                     />
                   </Zoom>
-
+                  <Zoom>
+                    <ProjectDisplay
+                      image={amazon}
+                      name="Amazon Clone"
+                      link="https://amaz-fake.web.app/"
+                    />
+                  </Zoom>
                   <Zoom>
                     <ProjectDisplay
                       image={buenos}
@@ -136,14 +152,24 @@ function Projects({}) {
                       link="https://finalhour.retailcare.com.au/"
                     />
                   </Zoom>
-                  
+
                   <Zoom>
                     <ProjectDisplay
-                      image={amazon}
-                      name="Amazon Clone"
-                      link="https://amaz-fake.web.app/"
+                      image={exchange_dark}
+                      name="Exchange Dashboard"
+                      link="https://exchange-dashboard-nine.vercel.app/"
                     />
                   </Zoom>
+
+                  <Zoom>
+                    <ProjectDisplay
+                      image={skinvoyance}
+                      name="Skinvoyance"
+                      link="https://skinvoyance.vercel.app/"
+                    />
+                  </Zoom>
+                  
+                  
                   
                   <Zoom>
                     <ProjectDisplay
@@ -152,6 +178,14 @@ function Projects({}) {
                       link="https://buenosairesmarketingdigital.com/"
                     />
                   </Zoom>
+                  <Zoom>
+                    <ProjectDisplay
+                      image={amazon}
+                      name="Amazon Clone"
+                      link="https://amaz-fake.web.app/"
+                    />
+                  </Zoom>
+                  
                   <Zoom delay="20">
                     <ProjectDisplay
                       image={whatsupp}
