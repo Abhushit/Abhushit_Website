@@ -1,8 +1,24 @@
 import React from "react";
 import "./FooterForm.css";
 import  {Slide} from "react-awesome-reveal";
+import { useState } from "react";
+import { Cancel, Clear, Close } from "@material-ui/icons";
 
 function FooterForm() {
+  const [submitText, setSubmitText] = useState(false)
+
+  const submitForm = (e) => {
+    e.preventDefault()
+    setSubmitText(true);
+    setTimeout(() => {
+      setSubmitText(false);
+    },5000)
+  }
+
+  const handleCloseSubmit = () => {
+    setSubmitText(false);
+  }
+
   return (
     
       <div className="footerForm">
@@ -15,8 +31,15 @@ function FooterForm() {
             placeholder="Your Message"
             style={{ height: 120 + "px" }}
           />
-          <button className="btn-submit">Submit</button>
+          <button className="btn-submit" onClick={e => submitForm(e)}>Submit</button>
+          {submitText ?
+        <div className="submit__text">
+            Sorry, Can not send the mail at the moment.
+            <Clear fontSize="small" onClick={handleCloseSubmit} />
+        </div> : ""
+        }
         </form>
+        
         </Slide>
       </div>
   );

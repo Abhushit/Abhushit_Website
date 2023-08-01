@@ -7,7 +7,7 @@ function FooterContact() {
     <Slide direction="right">
       <div className="footerContact">
         <h3>Details :</h3>
-        <p>Address : Biratnagar, Nepal</p>
+        <p>Country : Nepal</p>
         <p>
           Email :{" "}
           <a href="mailto:chaudhary.abhushit@gmail.com">

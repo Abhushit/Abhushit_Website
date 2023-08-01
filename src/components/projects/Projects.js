@@ -15,6 +15,7 @@ import just from "./../../images/just.jpg";
 import skinvoyance from "./../../images/skinvoyance.jpg";
 import exchange_dark from "./../../images/exchange_dark.jpg";
 import final_hour from "./../../images/final_hour.jpg";
+import change_dashboard from "./../../images/change_dashboard.jpg";
 
 
 import covid from "./../../images/covid.jpg";
@@ -46,11 +47,12 @@ function Projects({}) {
                   </Zoom>
                   <Zoom>
                     <ProjectDisplay
-                      image={exchange_dark}
-                      name="Exchange Dashboard"
-                      link="https://exchange-dashboard-nine.vercel.app/"
+                      image={change_dashboard}
+                      name="Change Dashboard"
+                      link="https://change-dashboard.vercel.app/"
                     />
                   </Zoom>
+                  
                   <Zoom>
                     <ProjectDisplay
                       image={skinvoyance}
@@ -59,6 +61,13 @@ function Projects({}) {
                     />
                   </Zoom>
                  
+                  <Zoom>
+                    <ProjectDisplay
+                      image={exchange_dark}
+                      name="Exchange Dashboard"
+                      link="https://exchange-dashboard-nine.vercel.app/"
+                    />
+                  </Zoom>
                   
                   <Zoom>
                     <ProjectDisplay
@@ -67,13 +76,8 @@ function Projects({}) {
                       link="https://just-latam.com/"
                     />
                   </Zoom>
-                  <Zoom>
-                    <ProjectDisplay
-                      image={amazon}
-                      name="Amazon Clone"
-                      link="https://amaz-fake.web.app/"
-                    />
-                  </Zoom>
+                  
+                  
                   <Zoom>
                     <ProjectDisplay
                       image={buenos}
@@ -89,6 +93,15 @@ function Projects({}) {
                       link="https://whatsupp-guyz.firebaseapp.com/"
                     />
                   </Zoom>
+
+                  <Zoom>
+                    <ProjectDisplay
+                      image={amazon}
+                      name="Amazon Clone"
+                      link="https://amaz-fake.web.app/"
+                    />
+                  </Zoom>
+
                   <Zoom delay="20">
                     <ProjectDisplay
                       image={covid}
@@ -155,11 +168,13 @@ function Projects({}) {
 
                   <Zoom>
                     <ProjectDisplay
-                      image={exchange_dark}
-                      name="Exchange Dashboard"
-                      link="https://exchange-dashboard-nine.vercel.app/"
+                      image={change_dashboard}
+                      name="Change Dashboard"
+                      link="https://change-dashboard.vercel.app/"
                     />
                   </Zoom>
+
+                  
 
                   <Zoom>
                     <ProjectDisplay
@@ -169,15 +184,14 @@ function Projects({}) {
                     />
                   </Zoom>
                   
-                  
-                  
                   <Zoom>
                     <ProjectDisplay
-                      image={buenos}
-                      name="BAMD"
-                      link="https://buenosairesmarketingdigital.com/"
+                      image={exchange_dark}
+                      name="Exchange Dashboard"
+                      link="https://exchange-dashboard-nine.vercel.app/"
                     />
                   </Zoom>
+                  
                   <Zoom>
                     <ProjectDisplay
                       image={amazon}
@@ -185,6 +199,15 @@ function Projects({}) {
                       link="https://amaz-fake.web.app/"
                     />
                   </Zoom>
+
+                  <Zoom>
+                    <ProjectDisplay
+                      image={buenos}
+                      name="BAMD"
+                      link="https://buenosairesmarketingdigital.com/"
+                    />
+                  </Zoom>
+                 
                   
                   <Zoom delay="20">
                     <ProjectDisplay

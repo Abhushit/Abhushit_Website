@@ -42,7 +42,7 @@ function Footer() {
 
         </div>
         <p>
-          ABHUSHIT CHAUDHARY <span>©2020</span>
+          ABHUSHIT CHAUDHARY <span>©{new Date().getFullYear()}</span>
         </p>
       </div>
     </>

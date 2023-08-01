@@ -28,7 +28,14 @@
 }
 .about__desc > p > span{
     color: var(--blue-color);
-    text-decoration: underline;
+    font-size: 20px;
+    /* text-decoration: underline; */
+
+    background: #E31B6D;
+    background: radial-gradient(circle farthest-corner at right center, #E31B6D 0%, #04C2C9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
 }
 .about__meSkills h3{
     font-size: 28px;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutIcons from "../aboutIcons/AboutIcons";
 import HeaderCompo from "../headerCompo/HeaderCompo";
 import "./About.css";
@@ -7,6 +7,7 @@ import MobileFriendlyIcon from "@material-ui/icons/MobileFriendly";
 import EmojiObjectsIcon from "@material-ui/icons/EmojiObjects";
 import DoneAllIcon from "@material-ui/icons/DoneAll";
 import my_image from "./../../images/my_image.jpg";
+import abhu from "./../../images/abhu.jpg";
 import html from "./../../images/html-5.png";
 import css from "./../../images/css.png";
 import javascript from "./../../images/javascript.png";
@@ -24,8 +25,33 @@ import { Slide } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
 
 function About() {
+
+  useEffect(() => {
+    const bg = document.querySelector('.about__img img');
+    const windowWidth = window.innerWidth / 5;
+    const windowHeight = window.innerHeight / 5 ;
+
+    bg.addEventListener('mousemove', (e) => {
+      const mouseX = e.clientX / windowWidth;
+      const mouseY = e.clientY / windowHeight;
+      
+      bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+    });
+
+    const bg2 = document.querySelector('.about__img');
+    const windowWidth2 = window.innerWidth / 9;
+    const windowHeight2 = window.innerHeight / 9 ;
+
+    bg2.addEventListener('mousemove', (e) => {
+      const mouseX2 = e.clientX / windowWidth2;
+      const mouseY2 = e.clientY / windowHeight2;
+      
+      bg2.style.transform = `translate3d(-${mouseX2}%, -${mouseY2}%, 0)`;
+    });
+  })
+
   const publicURL = process.env.PUBLIC_URL;
-  console.log("public url is>>", publicURL);
+  // console.log("public url is>>", publicURL);
   return (
     <div className="about" id="about">
       <div className="container__">
@@ -67,7 +93,7 @@ function About() {
             <div className="about__meImage">
               <Slide direction="left">
                 <div className="about__img">
-                  <img src={my_image} alt="my_image.jpg" />
+                  <img src={abhu} alt="my_image.jpg" />
                 </div>
               </Slide>
             </div>
@@ -76,12 +102,12 @@ function About() {
                 <div className="about__desc">
                   <h3>Who's this guy?</h3>
                   <p>
-                    I am a web developer passionate about web development.{" "}
+                    I am a web developer.{" "}
                     <br />
                     Completed Computer Science Engineering and working as a
                     developer for four years.
                     <br />{" "}
-                    <span>Love to make something creative and special</span>
+                    <span>Love to make something creative and special. </span>
                   </p>
                 </div>
                 <div className="about__skills">
