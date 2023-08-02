@@ -1,0 +1,24 @@
+.freelance{
+    padding: 4rem 0;
+    position: relative;
+}
+.freelance__div{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.freelance__div img {
+    height: 300px;
+    width: 300px;
+    object-fit: contain;
+}
+@media(max-width: 768px){
+    .freelance__div{
+        display: block;
+    }
+    .freelance {
+        padding: 1rem 0;
+    }
+}

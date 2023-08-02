@@ -7,6 +7,7 @@ import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Blog from "./components/blog/Blog";
 import Footer from "./components/footer/Footer";
+import Freelance from "./components/freelance/Freelance";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
             <Animate />
             <Navbar />
             <About />
-            <Projects />
+            <Projects /> 
+            <Freelance /> 
             {/* <Blog /> */}
             <Footer />
           </Route>

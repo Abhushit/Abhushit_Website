@@ -35,10 +35,10 @@ function Footer() {
           <ExpandLessIcon />
         </div>
         <div className="footer__socialMedia">
-          <SocialMedia icon={<LinkedInIcon />} iconLink="https://www.linkedin.com/in/abhushit-chaudhary-88266a167/" />
-          <SocialMedia icon={<FacebookIcon />} iconLink="https://www.facebook.com/abushit.chaudary" />
-          <SocialMedia icon={<InstagramIcon />} iconLink="https://www.instagram.com/abhushit_chaudhary/" />
-          <SocialMedia icon={<GitHubIcon />} iconLink="https://github.com/Abhushit" />
+          <SocialMedia icon={<LinkedInIcon />} iconLink="https://www.linkedin.com/in/abhushit-chaudhary-88266a167/" title="LinkedIn"/>
+          <SocialMedia icon={<GitHubIcon />} iconLink="https://github.com/Abhushit" title="Github" />
+          <SocialMedia icon={<FacebookIcon />} iconLink="https://www.facebook.com/abushit.chaudary" title="Facebook" />
+          <SocialMedia icon={<InstagramIcon />} iconLink="https://www.instagram.com/abhushit_chaudhary/" title="Instagram" />
 
         </div>
         <p>
