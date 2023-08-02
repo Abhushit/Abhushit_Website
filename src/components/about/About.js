@@ -27,27 +27,34 @@ import { Zoom } from "react-awesome-reveal";
 function About() {
 
   useEffect(() => {
-    const bg = document.querySelector('.about__img img');
+    // const bg = document.querySelector('.about__img img');
+    const wholeBg = document.querySelector('.about');
+    const bg1 = document.querySelector('.about__img img');
+    const bg2 = document.querySelector('.about__img');
+
     const windowWidth = window.innerWidth / 5;
     const windowHeight = window.innerHeight / 5 ;
+    const windowWidth2 = window.innerWidth / 8;
+    const windowHeight2 = window.innerHeight / 8 ;
 
-    bg.addEventListener('mousemove', (e) => {
+    wholeBg.addEventListener('mousemove', (e) => {
       const mouseX = e.clientX / windowWidth;
       const mouseY = e.clientY / windowHeight;
       
-      bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+      // bg.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+      bg1.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
+      bg2.style.transform = `translate3d(-${mouseX}%, -${mouseY}%, 0)`;
     });
 
-    const bg2 = document.querySelector('.about__img');
-    const windowWidth2 = window.innerWidth / 9;
-    const windowHeight2 = window.innerHeight / 9 ;
+    // const windowWidth2 = window.innerWidth / 9;
+    // const windowHeight2 = window.innerHeight / 9 ;
 
-    bg2.addEventListener('mousemove', (e) => {
-      const mouseX2 = e.clientX / windowWidth2;
-      const mouseY2 = e.clientY / windowHeight2;
+    // bg2.addEventListener('mousemove', (e) => {
+    //   const mouseX2 = e.clientX / windowWidth2;
+    //   const mouseY2 = e.clientY / windowHeight2;
       
-      bg2.style.transform = `translate3d(-${mouseX2}%, -${mouseY2}%, 0)`;
-    });
+    //   bg2.style.transform = `translate3d(-${mouseX2}%, -${mouseY2}%, 0)`;
+    // });
   })
 
   const publicURL = process.env.PUBLIC_URL;
