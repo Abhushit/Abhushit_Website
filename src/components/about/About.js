@@ -21,7 +21,7 @@ import nodejs from "./../../images/nodejs.png";
 import mongodb from "./../../images/mongodb-logo.png";
 import php from "./../../images/php.png";
 import mySql from "./../../images/mysql.png";
-import { Slide } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
 
 function About() {
@@ -98,14 +98,14 @@ function About() {
         <div className="about__me">
           <div className="about__meGrid2">
             <div className="about__meImage">
-              <Slide direction="left">
+              <Fade direction="bottom" delay="40">
                 <div className="about__img">
                   <img src={abhu} alt="my_image.jpg" />
                 </div>
-              </Slide>
+              </Fade>
             </div>
             <div className="about__meSkills">
-              <Slide direction="right">
+              <Fade direction="bottom" delay="40">
                 <div className="about__desc">
                   <h3>Who's this guy?</h3>
                   <p>
@@ -163,7 +163,7 @@ function About() {
                     </li>
                   </ul>
                 </div>
-              </Slide>
+              </Fade>
             </div>
           </div>
         </div>

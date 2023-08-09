@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import "./Animates.css";
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import { Fade } from "react-awesome-reveal";
 
 const viewScroll = () => {
   document.getElementById('about').scrollIntoView({
@@ -89,12 +90,12 @@ function Animate() {
           background: "#252934",
         }}
       />
-      <div className="animate__inside">
-        <h1>Hello, I am <span className="animate_insideColorHeader">Abhushit Chaudhary</span></h1>
-        <br/>
-        <h1>I am a Full-Stack Developer</h1>
-        <button className="btn__animate" onClick={viewScroll}>View my work <ArrowRightAltIcon /></button>
-      </div>
+        <div className="animate__inside">
+          <h1>Hello, I am <span className="animate_insideColorHeader">Abhushit Chaudhary</span></h1>
+          <br/>
+          <h1>I am a Full-Stack Developer</h1>
+          <button className="btn__animate" onClick={viewScroll}>View my work <ArrowRightAltIcon /></button>
+        </div>
     </div>
   );
 }

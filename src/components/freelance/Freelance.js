@@ -7,7 +7,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const Freelance = () => {
   return (
-    <div className="freelance">
+    <div className="freelance" id="freelance">
       <div className="container__">
         <HeaderCompo name="Freelance Platforms" />
         <div className="freelance__div">

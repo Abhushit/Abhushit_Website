@@ -1,18 +1,18 @@
 import React from 'react';
 import './HeaderCompo.css';
-import { Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 function HeaderCompo({name}) {
     return (
-        <Slide>
+        <Fade direction='bottom'>
         <div className="headerCompo">
             <h2>{name}</h2>
             <div className="headerCompo__after">
 
             </div>
         </div>
-        </Slide>
+        </Fade>
     )
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterForm.css";
-import  {Slide} from "react-awesome-reveal";
+import  {Fade} from "react-awesome-reveal";
 import { useState } from "react";
 import { Cancel, Clear, Close } from "@material-ui/icons";
 
@@ -22,7 +22,7 @@ function FooterForm() {
   return (
     
       <div className="footerForm">
-          <Slide direction="left">
+          <Fade direction="bottom" delay="40">
         <form className="form_grouped">
           <input type="text" className="form_foot" placeholder="Full Name" />
           <input type="text" className="form_foot" placeholder="Enter Email" />
@@ -40,7 +40,7 @@ function FooterForm() {
         }
         </form>
         
-        </Slide>
+        </Fade>
       </div>
   );
 }

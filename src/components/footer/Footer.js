@@ -9,6 +9,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import FooterContact from "../footerContact/FooterContact";
+import { Zoom } from "react-awesome-reveal";
 
 
 const scrollTop = () =>{
@@ -35,11 +36,18 @@ function Footer() {
           <ExpandLessIcon />
         </div>
         <div className="footer__socialMedia">
-          <SocialMedia icon={<LinkedInIcon />} iconLink="https://www.linkedin.com/in/abhushit-chaudhary-88266a167/" title="LinkedIn"/>
-          <SocialMedia icon={<GitHubIcon />} iconLink="https://github.com/Abhushit" title="Github" />
-          <SocialMedia icon={<FacebookIcon />} iconLink="https://www.facebook.com/abushit.chaudary" title="Facebook" />
-          <SocialMedia icon={<InstagramIcon />} iconLink="https://www.instagram.com/abhushit_chaudhary/" title="Instagram" />
-
+          <Zoom>
+            <SocialMedia icon={<LinkedInIcon />} iconLink="https://www.linkedin.com/in/abhushit-chaudhary-88266a167/" title="LinkedIn"/>
+          </Zoom>
+          <Zoom delay="20">
+            <SocialMedia icon={<GitHubIcon />} iconLink="https://github.com/Abhushit" title="Github" />
+          </Zoom>
+          <Zoom delay="40">
+            <SocialMedia icon={<FacebookIcon />} iconLink="https://www.facebook.com/abushit.chaudary" title="Facebook" />
+          </Zoom>
+          <Zoom delay="60">
+            <SocialMedia icon={<InstagramIcon />} iconLink="https://www.instagram.com/abhushit_chaudhary/" title="Instagram" />
+          </Zoom>
         </div>
         <p>
           ABHUSHIT CHAUDHARY <span>©{new Date().getFullYear()}</span>

@@ -6,7 +6,7 @@
 }
 .animate__particles{
     display: flex;
-    height: 100%;
+    height: 93vh;
     width: 100%;
     overflow: hidden;
 }

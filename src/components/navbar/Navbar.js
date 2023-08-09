@@ -14,8 +14,12 @@ const onClickPortfolio = () => {
     document.getElementById('portfolio').scrollIntoView({behavior:'smooth'});
     document.querySelector('.bm-overlay').click()
 }
-const onClickBlog = () => {
-    document.getElementById('blog').scrollIntoView({behavior:'smooth'});
+// const onClickBlog = () => {
+//     document.getElementById('blog').scrollIntoView({behavior:'smooth'});
+//     document.querySelector('.bm-overlay').click()
+// }
+const onClickFreelance = () => {
+    document.getElementById('freelance').scrollIntoView({behavior:'smooth'});
     document.querySelector('.bm-overlay').click()
 }
 const onClickContact = () => {
@@ -54,7 +58,8 @@ function Navbar() {
                         <li><a onClick={() => document.getElementById('home').scrollIntoView({behavior:'smooth'})}>HOME</a></li>
                         <li><a onClick={() => document.getElementById('about').scrollIntoView({behavior:'smooth'})}>ABOUT</a></li>
                         <li><a onClick={() => document.getElementById('portfolio').scrollIntoView({behavior:'smooth'})}>PORTFOLIO</a></li>
-                        <li><a onClick={() => document.getElementById('blog').scrollIntoView({behavior:'smooth'})}>BLOG</a></li>
+                        {/* <li><a onClick={() => document.getElementById('blog').scrollIntoView({behavior:'smooth'})}>BLOG</a></li> */}
+                        <li><a onClick={() => document.getElementById('freelance').scrollIntoView({behavior:'smooth'})}>FREELANCE</a></li>
                         <li><a onClick={() => document.getElementById('contact').scrollIntoView({behavior:'smooth'})}>CONTACT</a></li>
                     </ul>
                 </div>
@@ -66,7 +71,8 @@ function Navbar() {
             <a onClick={onClickHome}>HOME</a>
             <a onClick={onClickAbout}>ABOUT</a>
             <a onClick={onClickPortfolio}>PORTFOLIO</a>
-            <a onClick={onClickBlog}>BLOG</a>
+            {/* <a onClick={onClickBlog}>BLOG</a> */}
+            <a onClick={onClickFreelance}>FREELANCE</a>
             <a onClick={onClickContact}>CONTACT</a>
             </Menu>
         </div>
