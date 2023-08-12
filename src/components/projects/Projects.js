@@ -21,7 +21,7 @@ import change_dashboard from "./../../images/change_dashboard.jpg";
 import covid from "./../../images/covid.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import { Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function Projects({}) {
   return (
@@ -38,191 +38,191 @@ function Projects({}) {
             <TabPanel>
               <div className="projects__react">
                 <div className="projects_reactGrid3">
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={final_hour}
                       name="Final Hour"
                       link="https://finalhour.retailcare.com.au/"
                     />
-                  </Zoom>
-                  <Zoom>
+                  </Fade>
+                  <Fade>
                     <ProjectDisplay
                       image={change_dashboard}
                       name="Change Dashboard"
                       link="https://change-dashboard.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
                   
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={skinvoyance}
                       name="Skinvoyance"
                       link="https://skinvoyance.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
                  
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={exchange_dark}
                       name="Exchange Dashboard"
                       link="https://exchange-dashboard-nine.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
                   
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={just}
                       name="JUST"
                       link="https://just-latam.com/"
                     />
-                  </Zoom>
+                  </Fade>
                   
                   
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={buenos}
                       name="BAMD"
                       link="https://buenosairesmarketingdigital.com/"
                     />
-                  </Zoom>
+                  </Fade>
 
-                  <Zoom delay="20">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={whatsupp}
                       name="What's Upp"
                       link="https://whatsupp-guyz.firebaseapp.com/"
                     />
-                  </Zoom>
+                  </Fade>
 
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={amazon}
                       name="Amazon Clone"
                       link="https://amaz-fake.web.app/"
                     />
-                  </Zoom>
+                  </Fade>
 
-                  <Zoom delay="20">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
                       name="Corona Tracker"
                       link="https://covid-dash1.web.app"
                     />
-                  </Zoom>
+                  </Fade>
                  
-                  <Zoom delay="60">
+                  <Fade delay="60">
                     <ProjectDisplay
                       image={imgstock}
                       name="Img Stock"
                       link="http://imgstock.net/"
                     />
-                  </Zoom>
-                  <Zoom delay="80">
+                  </Fade>
+                  <Fade delay="80">
                     <ProjectDisplay
                       image={birattimes}
                       name="Birat Times"
                       link="https://birattimes.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="100">
+                  </Fade>
+                  <Fade delay="100">
                     <ProjectDisplay
                       image={nourishmecafe}
                       name="Nourish Me Cafe"
                       link="http://nourishmecafe.com.au/"
                     />
-                  </Zoom>
-                  <Zoom delay="120">
+                  </Fade>
+                  <Fade delay="120">
                     <ProjectDisplay
                       image={ncpokhrel}
                       name="NC Pokhrel"
                       link="http://ncpokhrel.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="140">
+                  </Fade>
+                  <Fade delay="140">
                     <ProjectDisplay
                       image={airambulance}
                       name="Air Ambulance Nepal"
                       link="http://airambulancenepal.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="160">
+                  </Fade>
+                  <Fade delay="160">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
                       link="http://webtechy.net/"
                     />
-                  </Zoom>
+                  </Fade>
                 </div>
               </div>
             </TabPanel>
             <TabPanel>
               <div className="projects__react">
                 <div className="projects_reactGrid3">
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={final_hour}
                       name="Final Hour"
                       link="https://finalhour.retailcare.com.au/"
                     />
-                  </Zoom>
+                  </Fade>
 
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={change_dashboard}
                       name="Change Dashboard"
                       link="https://change-dashboard.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
 
                   
 
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={skinvoyance}
                       name="Skinvoyance"
                       link="https://skinvoyance.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
                   
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={exchange_dark}
                       name="Exchange Dashboard"
                       link="https://exchange-dashboard-nine.vercel.app/"
                     />
-                  </Zoom>
+                  </Fade>
                   
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={amazon}
                       name="Amazon Clone"
                       link="https://amaz-fake.web.app/"
                     />
-                  </Zoom>
+                  </Fade>
 
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={buenos}
                       name="BAMD"
                       link="https://buenosairesmarketingdigital.com/"
                     />
-                  </Zoom>
+                  </Fade>
                  
                   
-                  <Zoom delay="20">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={whatsupp}
                       name="What's Upp"
                       link="https://whatsupp-guyz.firebaseapp.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="20">
+                  </Fade>
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
                       name="Corona Tracker"
                       link="https://covid-dash1.web.app"
                     />
-                  </Zoom>
+                  </Fade>
          
                 </div>
               </div>
@@ -230,55 +230,55 @@ function Projects({}) {
             <TabPanel>
               <div className="project__wordpress">
                 <div className="projects_reactGrid3">
-                  <Zoom>
+                  <Fade>
                     <ProjectDisplay
                       image={imgstock}
                       name="Img Stock"
                       link="http://imgstock.net/"
                     />
-                  </Zoom>
-                  <Zoom>
+                  </Fade>
+                  <Fade>
                     <ProjectDisplay
                       image={just}
                       name="JUST"
                       link="https://just-latam.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="20">
+                  </Fade>
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={birattimes}
                       name="Birat Times"
                       link="https://birattimes.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="40">
+                  </Fade>
+                  <Fade delay="40">
                     <ProjectDisplay
                       image={nourishmecafe}
                       name="Nourish Me Cafe"
                       link="http://nourishmecafe.com.au/"
                     />
-                  </Zoom>
-                  <Zoom delay="60">
+                  </Fade>
+                  <Fade delay="60">
                     <ProjectDisplay
                       image={ncpokhrel}
                       name="NC Pokhrel"
                       link="http://ncpokhrel.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="80">
+                  </Fade>
+                  <Fade delay="80">
                     <ProjectDisplay
                       image={airambulance}
                       name="Air Ambulance Nepal"
                       link="http://airambulancenepal.com/"
                     />
-                  </Zoom>
-                  <Zoom delay="100">
+                  </Fade>
+                  <Fade delay="100">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
                       link="http://webtechy.net/"
                     />
-                  </Zoom>
+                  </Fade>
                 </div>
               </div>
             </TabPanel>
