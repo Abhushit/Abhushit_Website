@@ -94,7 +94,7 @@ function Projects({}) {
                     />
                   </Fade>
 
-                  <Fade>
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={amazon}
                       name="Amazon Clone"
@@ -110,42 +110,42 @@ function Projects({}) {
                     />
                   </Fade>
                  
-                  <Fade delay="60">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={imgstock}
                       name="Img Stock"
                       link="http://imgstock.net/"
                     />
                   </Fade>
-                  <Fade delay="80">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={birattimes}
                       name="Birat Times"
                       link="https://birattimes.com/"
                     />
                   </Fade>
-                  <Fade delay="100">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={nourishmecafe}
                       name="Nourish Me Cafe"
                       link="http://nourishmecafe.com.au/"
                     />
                   </Fade>
-                  <Fade delay="120">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={ncpokhrel}
                       name="NC Pokhrel"
                       link="http://ncpokhrel.com/"
                     />
                   </Fade>
-                  <Fade delay="140">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={airambulance}
                       name="Air Ambulance Nepal"
                       link="http://airambulancenepal.com/"
                     />
                   </Fade>
-                  <Fade delay="160">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
@@ -251,28 +251,28 @@ function Projects({}) {
                       link="https://birattimes.com/"
                     />
                   </Fade>
-                  <Fade delay="40">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={nourishmecafe}
                       name="Nourish Me Cafe"
                       link="http://nourishmecafe.com.au/"
                     />
                   </Fade>
-                  <Fade delay="60">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={ncpokhrel}
                       name="NC Pokhrel"
                       link="http://ncpokhrel.com/"
                     />
                   </Fade>
-                  <Fade delay="80">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={airambulance}
                       name="Air Ambulance Nepal"
                       link="http://airambulancenepal.com/"
                     />
                   </Fade>
-                  <Fade delay="100">
+                  <Fade delay="20">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
