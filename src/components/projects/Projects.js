@@ -18,6 +18,7 @@ import final_hour from "./../../images/final_hour.jpg";
 import change_dashboard from "./../../images/change_dashboard.jpg";
 
 
+import tiktaktoe from "./../../images/tik-tak-toe.jpg";
 import covid from "./../../images/covid.jpg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
@@ -82,7 +83,7 @@ function Projects({}) {
                     <ProjectDisplay
                       image={buenos}
                       name="BAMD"
-                      link="https://buenosairesmarketingdigital.com/"
+                      link="https://buenosaires.vercel.app/"
                     />
                   </Fade>
 
@@ -98,10 +99,18 @@ function Projects({}) {
                     <ProjectDisplay
                       image={amazon}
                       name="Amazon Clone"
-                      link="https://amaz-fake.web.app/"
+                      link="https://amaz-fake.web.app"
                     />
                   </Fade>
 
+                  <Fade delay="20">
+                    <ProjectDisplay
+                      image={tiktaktoe}
+                      name="MERN Tik-Tak-Toe Challenge"
+                      link="https://mern-tik-tak-toe.vercel.app"
+                    />
+                  </Fade>
+                  
                   <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
@@ -174,8 +183,6 @@ function Projects({}) {
                     />
                   </Fade>
 
-                  
-
                   <Fade>
                     <ProjectDisplay
                       image={skinvoyance}
@@ -204,7 +211,7 @@ function Projects({}) {
                     <ProjectDisplay
                       image={buenos}
                       name="BAMD"
-                      link="https://buenosairesmarketingdigital.com/"
+                      link="https://buenosaires.vercel.app/"
                     />
                   </Fade>
                  
@@ -216,6 +223,15 @@ function Projects({}) {
                       link="https://whatsupp-guyz.firebaseapp.com/"
                     />
                   </Fade>
+
+                  <Fade delay="20">
+                    <ProjectDisplay
+                      image={tiktaktoe}
+                      name="MERN Tik-Tak-Toe Challenge"
+                      link="https://mern-tik-tak-toe.vercel.app"
+                    />
+                  </Fade>
+                  
                   <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
