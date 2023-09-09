@@ -243,7 +243,7 @@ function Projects({}) {
                 </div>
               </div>
             </TabPanel>
-            <TabPanel>
+            <TabPanel> 
               <div className="project__wordpress">
                 <div className="projects_reactGrid3">
                   <Fade>
