@@ -103,13 +103,13 @@ function Projects({}) {
                     />
                   </Fade>
 
-                  <Fade delay="20">
+                  {/* <Fade delay="20">
                     <ProjectDisplay
                       image={tiktaktoe}
                       name="MERN Tik-Tak-Toe Challenge"
                       link="https://mern-tik-tak-toe.vercel.app"
                     />
-                  </Fade>
+                  </Fade> */}
                   
                   <Fade delay="20">
                     <ProjectDisplay
@@ -154,13 +154,13 @@ function Projects({}) {
                       link="http://airambulancenepal.com/"
                     />
                   </Fade>
-                  <Fade delay="20">
+                  {/* <Fade delay="20">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
                       link="http://webtechy.net/"
                     />
-                  </Fade>
+                  </Fade> */}
                 </div>
               </div>
             </TabPanel>
@@ -224,13 +224,13 @@ function Projects({}) {
                     />
                   </Fade>
 
-                  <Fade delay="20">
+                  {/* <Fade delay="20">
                     <ProjectDisplay
                       image={tiktaktoe}
                       name="MERN Tik-Tak-Toe Challenge"
                       link="https://mern-tik-tak-toe.vercel.app"
                     />
-                  </Fade>
+                  </Fade> */}
                   
                   <Fade delay="20">
                     <ProjectDisplay
@@ -288,13 +288,13 @@ function Projects({}) {
                       link="http://airambulancenepal.com/"
                     />
                   </Fade>
-                  <Fade delay="20">
+                  {/* <Fade delay="20">
                     <ProjectDisplay
                       image={webtechy}
                       name="Web Techy"
                       link="http://webtechy.net/"
                     />
-                  </Fade>
+                  </Fade> */}
                 </div>
               </div>
             </TabPanel>

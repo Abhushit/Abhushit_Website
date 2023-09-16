@@ -93,7 +93,7 @@ function Animate() {
         <div className="animate__inside">
           <h1>Hello, I am <span className="animate_insideColorHeader">Abhushit Chaudhary</span></h1>
           <br/>
-          <h1>I am a Full-Stack Developer</h1>
+          <h1>I am a Software Engineer</h1>
           <button className="btn__animate" onClick={viewScroll}>View my work <ArrowRightAltIcon /></button>
         </div>
     </div>
