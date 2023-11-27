@@ -2,6 +2,7 @@ import React from "react";
 import "./Freelance.css";
 import HeaderCompo from "../headerCompo/HeaderCompo";
 import Fiver from "./../../images/fiverr.jpg";
+import Upwork from "./../../images/upwork.png";
 import Freelancer from "./../../images/freelancer.jpg";
 import { Zoom } from "react-awesome-reveal";
 
@@ -19,6 +20,17 @@ const Freelance = () => {
                 title="Fiverr"
               >
                 <img src={Fiver} alt="fiverr" />
+              </a>
+            </Zoom>
+          </div>
+          <div>
+            <Zoom>
+              <a
+                href="https://www.upwork.com/freelancers/~01dc3e3e03923ba54f"
+                target="_blank"
+                title="upwork"
+              >
+                <img src={Upwork} alt="upwork" className="upwork__img" />
               </a>
             </Zoom>
           </div>

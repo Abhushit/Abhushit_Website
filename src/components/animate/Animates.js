@@ -1,18 +1,33 @@
 import React from "react";
 import Particles from "react-particles-js";
 import "./Animates.css";
-import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import { Fade } from "react-awesome-reveal";
+import { PlayCircleOutline } from "@material-ui/icons";
+import { useState } from "react";
+import VideoDialogBox from "./VideoDialogBox";
 
 const viewScroll = () => {
-  document.getElementById('about').scrollIntoView({
-    behavior: 'smooth'
-  })
-}
+  document.getElementById("portfolio").scrollIntoView({
+    behavior: "smooth",
+  });
+};
 
 function Animate() {
+  const [showVideo, setShowVideo] = useState(false);
+
+  const handleWatchVideo = () => {
+    setShowVideo(true);
+  };
+
+  const callBackVideo = (call) => {
+    if (call === false) {
+      setShowVideo(false);
+    }
+  };
+
   return (
-    <div className="animate__" id="home"> 
+    <div className="animate__" id="home">
       {/* <Particles
         params={{
           particles: {
@@ -90,12 +105,24 @@ function Animate() {
           background: "#252934",
         }}
       />
-        <div className="animate__inside">
-          <h1>Hello, I am <span className="animate_insideColorHeader">Abhushit Chaudhary</span></h1>
-          <br/>
-          <h1>I am a Software Engineer</h1>
-          <button className="btn__animate" onClick={viewScroll}>View my work <ArrowRightAltIcon /></button>
+      <div className="animate__inside">
+        <h1>
+          Hello, I am{" "}
+          <span className="animate_insideColorHeader">Abhushit Chaudhary</span>
+        </h1>
+        <br />
+        <h1>I am a Software Engineer</h1>
+        <div className="button__flex">
+          <button className="btn__animate" onClick={viewScroll}>
+            View my work <ArrowRightAltIcon />
+          </button>
+          <button className="btn__watch" onClick={handleWatchVideo}>
+            Watch Video <PlayCircleOutline />{" "}
+          </button>
         </div>
+      </div>
+
+      {showVideo && <VideoDialogBox callBackVideo={callBackVideo} />}
     </div>
   );
 }
