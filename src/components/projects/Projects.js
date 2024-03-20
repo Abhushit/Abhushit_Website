@@ -16,7 +16,7 @@ import skinvoyance from "./../../images/skinvoyance.jpg";
 import exchange_dark from "./../../images/exchange_dark.jpg";
 import final_hour from "./../../images/final_hour.jpg";
 import change_dashboard from "./../../images/change_dashboard.jpg";
-
+import inventory_eats from "./../../images/inventory-eatss.jpg";
 
 import tiktaktoe from "./../../images/tik-tak-toe.jpg";
 import covid from "./../../images/covid.jpg";
@@ -53,15 +53,14 @@ function Projects({}) {
                       link="https://change-dashboard.vercel.app/"
                     />
                   </Fade>
-                  
                   <Fade>
                     <ProjectDisplay
-                      image={skinvoyance}
-                      name="Skinvoyance"
-                      link="https://skinvoyance.vercel.app/"
+                      image={inventory_eats}
+                      name="Inventory Eats"
+                      link="https://inventory-frontend-one-beta.vercel.app"
                     />
                   </Fade>
-                 
+
                   <Fade>
                     <ProjectDisplay
                       image={exchange_dark}
@@ -72,13 +71,22 @@ function Projects({}) {
                   
                   <Fade>
                     <ProjectDisplay
+                      image={skinvoyance}
+                      name="Skinvoyance"
+                      link="https://skinvoyance.vercel.app/"
+                    />
+                  </Fade>
+
+                  
+
+                  <Fade>
+                    <ProjectDisplay
                       image={just}
                       name="JUST"
                       link="https://just-latam.com/"
                     />
                   </Fade>
-                  
-                  
+
                   <Fade>
                     <ProjectDisplay
                       image={buenos}
@@ -110,7 +118,7 @@ function Projects({}) {
                       link="https://mern-tik-tak-toe.vercel.app"
                     />
                   </Fade> */}
-                  
+
                   <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
@@ -118,7 +126,7 @@ function Projects({}) {
                       link="https://covid-dash1.web.app"
                     />
                   </Fade>
-                 
+
                   <Fade delay="20">
                     <ProjectDisplay
                       image={imgstock}
@@ -185,12 +193,12 @@ function Projects({}) {
 
                   <Fade>
                     <ProjectDisplay
-                      image={skinvoyance}
-                      name="Skinvoyance"
-                      link="https://skinvoyance.vercel.app/"
+                      image={inventory_eats}
+                      name="Inventory Eats"
+                      link="https://inventory-frontend-one-beta.vercel.app"
                     />
                   </Fade>
-                  
+
                   <Fade>
                     <ProjectDisplay
                       image={exchange_dark}
@@ -198,7 +206,15 @@ function Projects({}) {
                       link="https://exchange-dashboard-nine.vercel.app/"
                     />
                   </Fade>
-                  
+
+                  <Fade>
+                    <ProjectDisplay
+                      image={skinvoyance}
+                      name="Skinvoyance"
+                      link="https://skinvoyance.vercel.app/"
+                    />
+                  </Fade>
+
                   <Fade>
                     <ProjectDisplay
                       image={amazon}
@@ -214,8 +230,7 @@ function Projects({}) {
                       link="https://buenosaires.vercel.app/"
                     />
                   </Fade>
-                 
-                  
+
                   <Fade delay="20">
                     <ProjectDisplay
                       image={whatsupp}
@@ -231,7 +246,7 @@ function Projects({}) {
                       link="https://mern-tik-tak-toe.vercel.app"
                     />
                   </Fade> */}
-                  
+
                   <Fade delay="20">
                     <ProjectDisplay
                       image={covid}
@@ -239,11 +254,10 @@ function Projects({}) {
                       link="https://covid-dash1.web.app"
                     />
                   </Fade>
-         
                 </div>
               </div>
             </TabPanel>
-            <TabPanel> 
+            <TabPanel>
               <div className="project__wordpress">
                 <div className="projects_reactGrid3">
                   <Fade>
